@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReminderAppNewUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_newReminder">New Reminder</string>
+    <string name="action_history">Past Reminders</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="homeScreen_headerText">Reminders</string>
+    <string name="app_reminder">Add Reminder</string>
+    <string name="homeScreen_addReminder">New</string>
+    <string name="homeScreen_deleteReminder">Delete</string>
+    <string name="addReminderScreen_notes">Reminder notes</string>
+    <string name="addReminderScreen_date">Date</string>
+    <string name="addReminderScreen_time">Time</string>
+	<string name="addReminderScreen_scheduleSMS">Schedule SMS</string>
+	<string name="addReminderScreen_setReminder">Set</string>
+	<string name="addReminderScreen_cancelReminder">Cancel</string>
+	<string name="scheduleSMSDialogue_smsText">Message</string>
+	<string name="scheduleSMSDialogue_cancelContacts">Cancel</string>
+	<string name="scheduleSMSDialogue_saveContact">Save</string>
+	<string name="scheduleSMSDialogue_date">Date</string>
+    <string name="scheduleSMSDialogue_time">Time</string>
+    <string name="deleteReminderDialogue_delete">Delete</string>
+	<string name="deleteReminderDialogue_back">Back</string>
+	<string name="addReminderScreen_contactNo">Contacts</string>
+	<string name="addReminderScreen_recipient">Recipients</string>
+    
+</resources>

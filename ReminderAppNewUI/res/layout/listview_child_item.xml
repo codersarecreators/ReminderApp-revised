@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homescreen_childitems" >
+ 
+   
+         <TextView
+        android:id="@+id/HomeScreen_childItem_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:typeface="monospace" 
+        android:textColor="#610B0B"
+        android:gravity="left"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+    
+       
+    <LinearLayout 
+        android:id="@+id/HomeScreen_childItemMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HomeScreen_menuEdit"
+            android:background="@android:drawable/ic_menu_edit"
+            android:contentDescription="Edit"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+           />
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HomeScreen_menuDelete"
+            android:background="@android:drawable/ic_menu_delete"
+            android:contentDescription="Delete"
+            android:layout_marginRight="15dp"
+            /> 
+             <CheckBox android:id="@+id/checkbox" android:focusable="false"
+       android:freezesText="false"
+       android:checked="true"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        />
+           </LinearLayout>
+    
+ 
+</LinearLayout>
